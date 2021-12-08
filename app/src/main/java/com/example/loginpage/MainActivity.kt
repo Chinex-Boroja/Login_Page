@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
 
         logIn.setOnClickListener() {
             if (emailAddress.text.toString().isNullOrEmpty() || password.text.toString().isNullOrEmpty()) {
-                Toast.makeText(this, "Email or password empty! please input text", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "email or password empty! please input text", Toast.LENGTH_LONG).show()
             }else{
-                if (emailAddress.text.toString() == "chinexboroja@gmail.com" && password.text.toString() == "Boroja24"){
+                if (emailAddress.text.toString() == "ihediohachinedu21.com" && password.text.toString() == "Boroja24"){
                     val intent = Intent(this, LoginActivity::class.java)
                     startActivity(intent)
                 }else{
